@@ -87,3 +87,10 @@ android {
         minSdk = 24
     }
 }
+
+sqldelight {
+    database("TranslateDatabase"){
+        packageName = "com.gmail.hostov47.translator_kmm.database"
+        sourceFolders = listOf("sqldelight")
+    }
+}
