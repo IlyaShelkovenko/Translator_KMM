@@ -50,6 +50,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation(Deps.ktorAndroid)
+                implementation(Deps.ktorLoggingAndroid)
                 implementation(Deps.sqlDelightAndroidDriver)
             }
         }
